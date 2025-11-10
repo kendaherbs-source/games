@@ -1,0 +1,136 @@
+{
+  "game_type": "herb_matching",
+  "game_engine": "flutter_custom",
+  "difficulty_levels": {
+    "easy": {
+      "cards": 8,
+      "time_seconds": 120,
+      "min_points": 10,
+      "max_points": 20,
+      "grid": {
+        "rows": 2,
+        "columns": 4
+      }
+    },
+    "medium": {
+      "cards": 12,
+      "time_seconds": 90,
+      "min_points": 20,
+      "max_points": 35,
+      "grid": {
+        "rows": 3,
+        "columns": 4
+      }
+    },
+    "hard": {
+      "cards": 16,
+      "time_seconds": 60,
+      "min_points": 35,
+      "max_points": 50,
+      "grid": {
+        "rows": 4,
+        "columns": 4
+      }
+    }
+  },
+  "scoring": {
+    "base_points_per_match": 5,
+    "perfect_game_multiplier": 2.0,
+    "streak_bonus_points": 5,
+    "streak_threshold": 3,
+    "time_bonus_per_second_remaining": 0.5,
+    "max_time_bonus": 20
+  },
+  "herbs": [
+    {
+      "id": "ginger",
+      "name_en": "Ginger",
+      "name_ar": "زنجبيل",
+      "color": "#FFA726",
+      "icon_emoji": "🫚"
+    },
+    {
+      "id": "mint",
+      "name_en": "Mint",
+      "name_ar": "نعناع",
+      "color": "#66BB6A",
+      "icon_emoji": "🌿"
+    },
+    {
+      "id": "chamomile",
+      "name_en": "Chamomile",
+      "name_ar": "بابونج",
+      "color": "#FFF59D",
+      "icon_emoji": "🌼"
+    },
+    {
+      "id": "lavender",
+      "name_en": "Lavender",
+      "name_ar": "خزامى",
+      "color": "#BA68C8",
+      "icon_emoji": "💜"
+    },
+    {
+      "id": "rosemary",
+      "name_en": "Rosemary",
+      "name_ar": "إكليل الجبل",
+      "color": "#4CAF50",
+      "icon_emoji": "🌿"
+    },
+    {
+      "id": "thyme",
+      "name_en": "Thyme",
+      "name_ar": "زعتر",
+      "color": "#8BC34A",
+      "icon_emoji": "🌿"
+    },
+    {
+      "id": "basil",
+      "name_en": "Basil",
+      "name_ar": "ريحان",
+      "color": "#689F38",
+      "icon_emoji": "🌿"
+    },
+    {
+      "id": "cinnamon",
+      "name_en": "Cinnamon",
+      "name_ar": "قرفة",
+      "color": "#A1887F",
+      "icon_emoji": "🤎"
+    }
+  ],
+  "animations": {
+    "card_flip_duration_ms": 300,
+    "match_celebration_duration_ms": 1000,
+    "mismatch_shake_duration_ms": 500,
+    "particles_enabled": true,
+    "particle_count": 20
+  },
+  "ui": {
+    "card_aspect_ratio": 0.75,
+    "card_border_radius": 12,
+    "card_elevation": 4,
+    "background_gradient": {
+      "start_color": "#E8F5E9",
+      "end_color": "#C8E6C9"
+    },
+    "timer_warning_seconds": 10,
+    "timer_warning_color": "#F44336"
+  },
+  "sound_effects": {
+    "enabled": true,
+    "flip_sound": "card_flip.mp3",
+    "match_sound": "success.mp3",
+    "mismatch_sound": "error.mp3",
+    "win_sound": "victory.mp3",
+    "timer_warning_sound": "tick.mp3"
+  },
+  "gameplay": {
+    "max_flipped_cards": 2,
+    "mismatch_delay_ms": 1000,
+    "auto_flip_back": true,
+    "shuffle_cards": true,
+    "allow_same_card_twice": false
+  }
+}
+

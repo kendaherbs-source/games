@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-11-10T00:00:00Z",
+  "repository": "https://github.com/kendaherbs-source/games",
+  "games": [
+    {
+      "id": "herb_matching",
+      "name_en": "Herb Matching",
+      "name_ar": "مطابقة الأعشاب",
+      "description_en": "Classic memory matching with herb cards. Match pairs to earn points!",
+      "description_ar": "لعبة مطابقة الذاكرة الكلاسيكية مع بطاقات الأعشاب. طابق الأزواج لكسب النقاط!",
+      "version": "1.0.0",
+      "size_mb": 2.5,
+      "min_points": 10,
+      "max_points": 50,
+      "difficulty_levels": ["easy", "medium", "hard"],
+      "preview_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/herb_matching/preview.png",
+      "manifest_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/herb_matching/manifest.json",
+      "download_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/herb_matching/game.json",
+      "required_app_version": "10.0.0",
+      "is_multiplayer": false,
+      "category": "memory",
+      "tags": ["educational", "fun", "herbs", "matching"],
+      "play_time_minutes": 2,
+      "popularity": 95,
+      "once_per_day": false
+    },
+    {
+      "id": "daily_spin",
+      "name_en": "Daily Spin Wheel",
+      "name_ar": "عجلة الحظ اليومية",
+      "description_en": "Spin once per day for bonus points. Get lucky and win up to 200 points!",
+      "description_ar": "لف مرة واحدة يوميًا للحصول على نقاط إضافية. احظ بالحظ واربح حتى 200 نقطة!",
+      "version": "1.0.0",
+      "size_mb": 1.2,
+      "min_points": 10,
+      "max_points": 200,
+      "difficulty_levels": ["luck"],
+      "preview_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/daily_spin/preview.png",
+      "manifest_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/daily_spin/manifest.json",
+      "download_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/daily_spin/game.json",
+      "required_app_version": "10.0.0",
+      "is_multiplayer": false,
+      "category": "daily",
+      "tags": ["daily", "bonus", "luck", "wheel"],
+      "play_time_minutes": 1,
+      "popularity": 98,
+      "once_per_day": true
+    }
+  ],
+  "featured_game": "herb_matching",
+  "new_games": ["herb_matching", "daily_spin"],
+  "coming_soon": [
+    {
+      "id": "memory_challenge",
+      "name_en": "Memory Challenge",
+      "name_ar": "تحدي الذاكرة",
+      "release_date": "2025-11-15"
+    },
+    {
+      "id": "cooking_game",
+      "name_en": "Virtual Cooking",
+      "name_ar": "طبخ افتراضي",
+      "release_date": "2025-11-20"
+    },
+    {
+      "id": "quick_tap",
+      "name_en": "Quick Tap Challenge",
+      "name_ar": "تحدي النقر السريع",
+      "release_date": "2025-11-25"
+    }
+  ]
+}
+

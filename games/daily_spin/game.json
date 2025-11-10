@@ -1,0 +1,145 @@
+{
+  "game_type": "daily_spin",
+  "game_engine": "flutter_custom",
+  "once_per_day": true,
+  "rewards": [
+    {
+      "id": "reward_1",
+      "points": 10,
+      "probability": 0.30,
+      "label_en": "10 Points",
+      "label_ar": "10 نقاط",
+      "color": "#4CAF50",
+      "icon": "💎"
+    },
+    {
+      "id": "reward_2",
+      "points": 25,
+      "probability": 0.25,
+      "label_en": "25 Points",
+      "label_ar": "25 نقطة",
+      "color": "#2196F3",
+      "icon": "💎💎"
+    },
+    {
+      "id": "reward_3",
+      "points": 50,
+      "probability": 0.20,
+      "label_en": "50 Points",
+      "label_ar": "50 نقطة",
+      "color": "#9C27B0",
+      "icon": "⭐"
+    },
+    {
+      "id": "reward_4",
+      "points": 100,
+      "probability": 0.15,
+      "label_en": "100 Points",
+      "label_ar": "100 نقطة",
+      "color": "#FF9800",
+      "icon": "🌟"
+    },
+    {
+      "id": "reward_5",
+      "points": 150,
+      "probability": 0.07,
+      "label_en": "150 Points",
+      "label_ar": "150 نقطة",
+      "color": "#F44336",
+      "icon": "🔥"
+    },
+    {
+      "id": "reward_6",
+      "points": 200,
+      "probability": 0.025,
+      "label_en": "200 Points!",
+      "label_ar": "200 نقطة!",
+      "color": "#FFD700",
+      "icon": "💰"
+    },
+    {
+      "id": "reward_jackpot",
+      "points": 500,
+      "probability": 0.005,
+      "label_en": "JACKPOT!",
+      "label_ar": "جائزة كبرى!",
+      "color": "#FF1744",
+      "icon": "🎯"
+    }
+  ],
+  "bonuses": {
+    "weekend_multiplier": 1.5,
+    "weekend_days": [6, 7],
+    "streak_bonus": {
+      "enabled": true,
+      "7_days": {
+        "bonus_points": 50,
+        "message_en": "7-day streak! Bonus 50 points!",
+        "message_ar": "7 أيام متتالية! مكافأة 50 نقطة!"
+      },
+      "14_days": {
+        "bonus_points": 100,
+        "message_en": "14-day streak! Bonus 100 points!",
+        "message_ar": "14 يوم متتالي! مكافأة 100 نقطة!"
+      },
+      "30_days": {
+        "bonus_points": 300,
+        "message_en": "30-day streak! Amazing! Bonus 300 points!",
+        "message_ar": "30 يوم متتالي! رائع! مكافأة 300 نقطة!"
+      }
+    }
+  },
+  "wheel": {
+    "segments": 8,
+    "rotation_duration_ms": 3000,
+    "rotation_easing": "easeOutCubic",
+    "min_rotations": 5,
+    "max_rotations": 8,
+    "show_pointer": true,
+    "pointer_color": "#FFD700"
+  },
+  "animations": {
+    "spin_start": {
+      "type": "scale",
+      "duration_ms": 200
+    },
+    "spin_end": {
+      "type": "bounce",
+      "duration_ms": 500
+    },
+    "win_celebration": {
+      "confetti_enabled": true,
+      "confetti_count": 100,
+      "confetti_duration_ms": 3000,
+      "shake_enabled": true
+    }
+  },
+  "ui": {
+    "wheel_size": 300,
+    "button_text_en": "SPIN!",
+    "button_text_ar": "لف!",
+    "button_color": "#4CAF50",
+    "button_disabled_color": "#BDBDBD",
+    "come_back_message_en": "Come back tomorrow!",
+    "come_back_message_ar": "عد غدًا!",
+    "countdown_timer": true
+  },
+  "sounds": {
+    "enabled": true,
+    "spin_sound": "spin.mp3",
+    "win_sound": "win.mp3",
+    "jackpot_sound": "jackpot.mp3",
+    "tick_sound": "tick.mp3"
+  },
+  "notifications": {
+    "daily_reminder": {
+      "enabled": true,
+      "time": "20:00",
+      "title_en": "Daily Spin Ready!",
+      "title_ar": "عجلة الحظ جاهزة!",
+      "body_en": "Spin the wheel to win bonus points!",
+      "body_ar": "لف العجلة لربح نقاط إضافية!"
+    }
+  }
+}
+

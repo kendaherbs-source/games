@@ -1,0 +1,42 @@
+{
+  "game_id": "daily_spin",
+  "version": "1.0.0",
+  "name": {
+    "en": "Daily Spin Wheel",
+    "ar": "عجلة الحظ اليومية"
+  },
+  "description": {
+    "en": "Spin the lucky wheel once per day for bonus points. Win up to 200 points instantly!",
+    "ar": "لف عجلة الحظ مرة واحدة يوميًا للحصول على نقاط إضافية. اربح حتى 200 نقطة فورًا!"
+  },
+  "author": "Kenda Herbs Team",
+  "created_date": "2025-11-10",
+  "last_updated": "2025-11-10",
+  "size_bytes": 1258291,
+  "min_app_version": "10.0.0",
+  "category": "daily",
+  "tags": ["daily", "bonus", "luck", "wheel", "spin"],
+  "once_per_day": true,
+  "assets": {
+    "images": [
+      "preview.png"
+    ],
+    "sounds": [
+      "spin.mp3",
+      "win.mp3"
+    ],
+    "animations": []
+  },
+  "features": [
+    "Play once per day",
+    "Win 10-200 points",
+    "Weekend bonus (1.5x)",
+    "Streak rewards",
+    "Celebration animations"
+  ],
+  "instructions": {
+    "en": "Tap the SPIN button once per day to win bonus points. Come back every day for streak bonuses!",
+    "ar": "انقر على زر اللف مرة واحدة يوميًا لربح نقاط إضافية. عد كل يوم للحصول على مكافآت الاستمرارية!"
+  }
+}
+

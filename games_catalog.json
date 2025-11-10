@@ -46,10 +46,32 @@
       "play_time_minutes": 1,
       "popularity": 98,
       "once_per_day": true
+    },
+    {
+      "id": "bubble_shooter",
+      "name_en": "Herb Bubble Shooter",
+      "name_ar": "لعبة فقاعات الأعشاب",
+      "description_en": "Zuma-style bubble shooter! Match 3+ bubbles to pop them. Features 50+ levels, power-ups, and combos!",
+      "description_ar": "لعبة الفقاعات على طريقة زوما! طابق 3 فقاعات أو أكثر لتفجيرها. تتضمن 50+ مستوى، قوى خاصة، ومضاعفات!",
+      "version": "1.0.0",
+      "size_mb": 3.8,
+      "min_points": 20,
+      "max_points": 300,
+      "difficulty_levels": ["progressive"],
+      "preview_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/bubble_shooter/preview.png",
+      "manifest_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/bubble_shooter/manifest.json",
+      "download_url": "https://raw.githubusercontent.com/kendaherbs-source/games/main/games/bubble_shooter/game.json",
+      "required_app_version": "10.2.0",
+      "is_multiplayer": false,
+      "category": "arcade",
+      "tags": ["zuma", "bubble", "arcade", "levels", "combos"],
+      "play_time_minutes": 10,
+      "popularity": 100,
+      "once_per_day": false
     }
   ],
-  "featured_game": "herb_matching",
-  "new_games": ["herb_matching", "daily_spin"],
+  "featured_game": "bubble_shooter",
+  "new_games": ["bubble_shooter", "herb_matching", "daily_spin"],
   "coming_soon": [
     {
       "id": "memory_challenge",

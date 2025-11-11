@@ -1,0 +1,22 @@
+{
+  "id": "snake_game",
+  "version": "1.0.0",
+  "name": {
+    "en": "Snake Game",
+    "ar": "لعبة الثعبان"
+  },
+  "description": {
+    "en": "Classic snake with power-ups and obstacles!",
+    "ar": "لعبة الثعبان الكلاسيكية مع قوى خاصة وعوائق!"
+  },
+  "category": "arcade",
+  "min_points": 10,
+  "max_points": 100,
+  "sounds": {
+    "eat": "sounds/eat.mp3",
+    "power_up": "sounds/power_up.mp3",
+    "collision": "sounds/collision.mp3",
+    "game_over": "sounds/game_over.mp3"
+  }
+}
+

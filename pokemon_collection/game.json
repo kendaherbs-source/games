@@ -1,0 +1,22 @@
+{
+  "id": "pokemon_collection",
+  "version": "1.0.0",
+  "name": {
+    "en": "Creature Catcher",
+    "ar": "صائد المخلوقات"
+  },
+  "description": {
+    "en": "Catch creatures and build your collection!",
+    "ar": "اصطاد المخلوقات واجمع مجموعتك!"
+  },
+  "category": "action",
+  "min_points": 20,
+  "max_points": 100,
+  "sounds": {
+    "catch": "sounds/catch.mp3",
+    "escape": "sounds/escape.mp3",
+    "rare_catch": "sounds/rare_catch.mp3",
+    "time_up": "sounds/time_up.mp3"
+  }
+}
+

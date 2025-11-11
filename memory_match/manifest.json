@@ -1,0 +1,15 @@
+{
+  "game_id": "memory_match",
+  "version": "1.0.0",
+  "assets": {
+    "images": {"preview.png": {"size": 512000, "resolution": "800x600"}},
+    "sounds": {
+      "flip.mp3": {"size": 10000, "duration": 0.3},
+      "match.mp3": {"size": 20000, "duration": 0.8},
+      "no_match.mp3": {"size": 15000, "duration": 0.5},
+      "complete.mp3": {"size": 50000, "duration": 2.0}
+    }
+  },
+  "total_size_bytes": 607000
+}
+

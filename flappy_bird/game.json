@@ -1,0 +1,22 @@
+{
+  "id": "flappy_bird",
+  "version": "1.0.0",
+  "name": {
+    "en": "Flappy Bird",
+    "ar": "الطائر المرفرف"
+  },
+  "description": {
+    "en": "Tap to fly, avoid pipes, and score as high as you can!",
+    "ar": "اضغط للطيران، تجنب الأنابيب، واحصل على أعلى نتيجة!"
+  },
+  "category": "arcade",
+  "min_points": 10,
+  "max_points": 100,
+  "sounds": {
+    "flap": "sounds/flap.mp3",
+    "score": "sounds/score.mp3",
+    "hit": "sounds/hit.mp3",
+    "game_over": "sounds/game_over.mp3"
+  }
+}
+

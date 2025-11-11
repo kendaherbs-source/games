@@ -1,0 +1,23 @@
+{
+  "id": "match3_puzzle",
+  "version": "1.0.0",
+  "name": {
+    "en": "Match-3 Puzzle",
+    "ar": "لعبة المطابقة"
+  },
+  "description": {
+    "en": "Match 3 or more gems to clear them and score points!",
+    "ar": "طابق 3 أحجار أو أكثر لمسحها وكسب النقاط!"
+  },
+  "category": "puzzle",
+  "min_points": 10,
+  "max_points": 100,
+  "sounds": {
+    "swap": "sounds/swap.mp3",
+    "match": "sounds/match.mp3",
+    "cascade": "sounds/cascade.mp3",
+    "no_match": "sounds/no_match.mp3",
+    "game_over": "sounds/game_over.mp3"
+  }
+}
+

@@ -1,0 +1,16 @@
+{
+  "game_id": "tetris",
+  "version": "1.0.0",
+  "assets": {
+    "images": {"preview.png": {"size": 512000, "resolution": "800x600"}},
+    "sounds": {
+      "move.mp3": {"size": 8000, "duration": 0.2},
+      "rotate.mp3": {"size": 10000, "duration": 0.3},
+      "drop.mp3": {"size": 15000, "duration": 0.5},
+      "line_clear.mp3": {"size": 30000, "duration": 1.2},
+      "game_over.mp3": {"size": 40000, "duration": 1.5}
+    }
+  },
+  "total_size_bytes": 615000
+}
+

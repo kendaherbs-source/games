@@ -1,0 +1,23 @@
+{
+  "id": "endless_runner",
+  "version": "1.0.0",
+  "name": {
+    "en": "Endless Runner",
+    "ar": "العداء اللانهائي"
+  },
+  "description": {
+    "en": "Jump, slide, and dodge obstacles in an endless adventure!",
+    "ar": "اقفز، انزلق، وتجنب العوائق في مغامرة لا نهائية!"
+  },
+  "category": "action",
+  "min_points": 20,
+  "max_points": 100,
+  "sounds": {
+    "jump": "sounds/jump.mp3",
+    "slide": "sounds/slide.mp3",
+    "coin": "sounds/coin.mp3",
+    "hit": "sounds/hit.mp3",
+    "game_over": "sounds/game_over.mp3"
+  }
+}
+

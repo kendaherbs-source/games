@@ -1,0 +1,22 @@
+{
+  "game_id": "zuma_shooter",
+  "version": "1.0.0",
+  "assets": {
+    "images": {
+      "preview.png": {
+        "size": 512000,
+        "resolution": "800x600"
+      }
+    },
+    "sounds": {
+      "shoot.mp3": {"size": 15000, "duration": 0.5},
+      "match.mp3": {"size": 20000, "duration": 0.8},
+      "combo.mp3": {"size": 25000, "duration": 1.0},
+      "level_complete.mp3": {"size": 50000, "duration": 2.0},
+      "game_over.mp3": {"size": 40000, "duration": 1.5},
+      "bg_music.mp3": {"size": 500000, "duration": 60.0, "loop": true}
+    }
+  },
+  "total_size_bytes": 1162000
+}
+

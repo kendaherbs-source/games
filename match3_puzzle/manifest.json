@@ -1,0 +1,16 @@
+{
+  "game_id": "match3_puzzle",
+  "version": "1.0.0",
+  "assets": {
+    "images": {"preview.png": {"size": 512000, "resolution": "800x600"}},
+    "sounds": {
+      "swap.mp3": {"size": 10000, "duration": 0.3},
+      "match.mp3": {"size": 20000, "duration": 0.8},
+      "cascade.mp3": {"size": 25000, "duration": 1.0},
+      "no_match.mp3": {"size": 15000, "duration": 0.5},
+      "game_over.mp3": {"size": 40000, "duration": 1.5}
+    }
+  },
+  "total_size_bytes": 622000
+}
+

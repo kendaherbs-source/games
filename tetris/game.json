@@ -1,0 +1,23 @@
+{
+  "id": "tetris",
+  "version": "1.0.0",
+  "name": {
+    "en": "Tetris",
+    "ar": "تتريس"
+  },
+  "description": {
+    "en": "Stack falling blocks to clear lines and score points!",
+    "ar": "رتب المكعبات الساقطة لمسح الخطوط وكسب النقاط!"
+  },
+  "category": "puzzle",
+  "min_points": 10,
+  "max_points": 100,
+  "sounds": {
+    "move": "sounds/move.mp3",
+    "rotate": "sounds/rotate.mp3",
+    "drop": "sounds/drop.mp3",
+    "line_clear": "sounds/line_clear.mp3",
+    "game_over": "sounds/game_over.mp3"
+  }
+}
+

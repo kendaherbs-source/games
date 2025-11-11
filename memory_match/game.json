@@ -1,0 +1,22 @@
+{
+  "id": "memory_match",
+  "version": "1.0.0",
+  "name": {
+    "en": "Memory Match",
+    "ar": "تطابق الذاكرة"
+  },
+  "description": {
+    "en": "Find matching pairs of cards to clear the board!",
+    "ar": "ابحث عن أزواج البطاقات المتطابقة لمسح اللوحة!"
+  },
+  "category": "puzzle",
+  "min_points": 10,
+  "max_points": 100,
+  "sounds": {
+    "flip": "sounds/flip.mp3",
+    "match": "sounds/match.mp3",
+    "no_match": "sounds/no_match.mp3",
+    "complete": "sounds/complete.mp3"
+  }
+}
+

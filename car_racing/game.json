@@ -1,0 +1,23 @@
+{
+  "id": "car_racing",
+  "version": "1.0.0",
+  "name": {
+    "en": "Car Racing",
+    "ar": "سباق السيارات"
+  },
+  "description": {
+    "en": "Dodge traffic, collect coins, and drive as far as possible!",
+    "ar": "تفادى السيارات، اجمع العملات، وقد بأبعد مسافة ممكنة!"
+  },
+  "category": "racing",
+  "min_points": 20,
+  "max_points": 100,
+  "sounds": {
+    "engine": "sounds/engine.mp3",
+    "coin": "sounds/coin.mp3",
+    "crash": "sounds/crash.mp3",
+    "speed_up": "sounds/speed_up.mp3",
+    "game_over": "sounds/game_over.mp3"
+  }
+}
+

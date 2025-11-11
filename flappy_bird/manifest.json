@@ -1,0 +1,15 @@
+{
+  "game_id": "flappy_bird",
+  "version": "1.0.0",
+  "assets": {
+    "images": {"preview.png": {"size": 512000, "resolution": "800x600"}},
+    "sounds": {
+      "flap.mp3": {"size": 10000, "duration": 0.3},
+      "score.mp3": {"size": 15000, "duration": 0.5},
+      "hit.mp3": {"size": 20000, "duration": 0.8},
+      "game_over.mp3": {"size": 40000, "duration": 1.5}
+    }
+  },
+  "total_size_bytes": 597000
+}
+

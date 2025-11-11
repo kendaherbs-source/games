@@ -1,0 +1,16 @@
+{
+  "game_id": "car_racing",
+  "version": "1.0.0",
+  "assets": {
+    "images": {"preview.png": {"size": 512000, "resolution": "800x600"}},
+    "sounds": {
+      "engine.mp3": {"size": 30000, "duration": 1.0, "loop": true},
+      "coin.mp3": {"size": 15000, "duration": 0.5},
+      "crash.mp3": {"size": 35000, "duration": 1.2},
+      "speed_up.mp3": {"size": 20000, "duration": 0.8},
+      "game_over.mp3": {"size": 40000, "duration": 1.5}
+    }
+  },
+  "total_size_bytes": 652000
+}
+

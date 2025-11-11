@@ -1,0 +1,16 @@
+{
+  "game_id": "endless_runner",
+  "version": "1.0.0",
+  "assets": {
+    "images": {"preview.png": {"size": 512000, "resolution": "800x600"}},
+    "sounds": {
+      "jump.mp3": {"size": 15000, "duration": 0.5},
+      "slide.mp3": {"size": 18000, "duration": 0.6},
+      "coin.mp3": {"size": 15000, "duration": 0.5},
+      "hit.mp3": {"size": 25000, "duration": 1.0},
+      "game_over.mp3": {"size": 40000, "duration": 1.5}
+    }
+  },
+  "total_size_bytes": 625000
+}
+

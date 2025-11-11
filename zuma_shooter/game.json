@@ -1,0 +1,35 @@
+{
+  "id": "zuma_shooter",
+  "version": "1.0.0",
+  "name": {
+    "en": "Zuma Shooter",
+    "ar": "لعبة زوما"
+  },
+  "description": {
+    "en": "Match colored balls to clear the chain before it reaches the end!",
+    "ar": "طابق الكرات الملونة لمسح السلسلة قبل أن تصل إلى النهاية!"
+  },
+  "category": "puzzle",
+  "min_points": 10,
+  "max_points": 100,
+  "gameplay": {
+    "type": "shooter",
+    "controls": "tap",
+    "difficulty": "medium"
+  },
+  "sounds": {
+    "shoot": "sounds/shoot.mp3",
+    "match": "sounds/match.mp3",
+    "combo": "sounds/combo.mp3",
+    "level_complete": "sounds/level_complete.mp3",
+    "game_over": "sounds/game_over.mp3",
+    "background_music": "sounds/bg_music.mp3"
+  },
+  "settings": {
+    "initial_speed": 0.3,
+    "max_speed": 1.0,
+    "ball_colors": 6,
+    "chain_length_base": 15
+  }
+}
+

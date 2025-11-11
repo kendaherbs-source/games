@@ -1,0 +1,23 @@
+{
+  "id": "bubble_pop",
+  "version": "1.0.0",
+  "name": {
+    "en": "Bubble Pop",
+    "ar": "فرقعة الفقاعات"
+  },
+  "description": {
+    "en": "Pop bubbles by matching 3 or more colors!",
+    "ar": "افرقع الفقاعات بمطابقة 3 ألوان أو أكثر!"
+  },
+  "category": "puzzle",
+  "min_points": 10,
+  "max_points": 100,
+  "sounds": {
+    "shoot": "sounds/shoot.mp3",
+    "pop": "sounds/pop.mp3",
+    "combo": "sounds/combo.mp3",
+    "no_match": "sounds/no_match.mp3",
+    "game_over": "sounds/game_over.mp3"
+  }
+}
+

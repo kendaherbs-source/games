@@ -1,0 +1,123 @@
+{
+  "id": "bubble_shooter",
+  "name_en": "Herb Bubble Shooter",
+  "name_ar": "لعبة فقاعات الأعشاب",
+  "version": "1.0.0",
+  "release_date": "2025-11-10",
+  "description_en": "Professional Zuma-style bubble shooter with 50+ levels, power-ups, and combo system!",
+  "description_ar": "لعبة فقاعات احترافية على طريقة زوما مع أكثر من 50 مستوى، قوى خاصة، ونظام مضاعفات!",
+  "category": "arcade",
+  "difficulty": "progressive",
+  "min_points": 20,
+  "max_points": 300,
+  "estimated_play_time": "10-15 minutes",
+  "features": [
+    "50+ Progressive Levels",
+    "6 Herb Types (Colors)",
+    "Power-ups (Bomb, Rainbow)",
+    "Combo System with Multipliers",
+    "Smooth Bubble Physics",
+    "Particle Effects",
+    "Auto-difficulty Scaling"
+  ],
+  "features_ar": [
+    "أكثر من 50 مستوى متدرج",
+    "6 أنواع من الأعشاب (ألوان)",
+    "قوى خاصة (قنبلة، قوس قزح)",
+    "نظام مضاعفات",
+    "فيزياء فقاعات سلسة",
+    "تأثيرات جزيئية",
+    "تصعيد تلقائي للصعوبة"
+  ],
+  "how_to_play_en": [
+    "1. Tap screen to shoot bubble in that direction",
+    "2. Match 3+ bubbles of same color to pop them",
+    "3. Floating bubbles fall automatically (bonus points!)",
+    "4. Clear all bubbles to complete level",
+    "5. Don't let bubbles reach the bottom!",
+    "6. Build combos for higher scores"
+  ],
+  "how_to_play_ar": [
+    "1. اضغط على الشاشة لإطلاق الفقاعة في ذلك الاتجاه",
+    "2. طابق 3 فقاعات أو أكثر من نفس اللون لتفجيرها",
+    "3. الفقاعات العائمة تسقط تلقائيًا (نقاط إضافية!)",
+    "4. امسح جميع الفقاعات لإكمال المستوى",
+    "5. لا تدع الفقاعات تصل إلى الأسفل!",
+    "6. اصنع مضاعفات لدرجات أعلى"
+  ],
+  "scoring": {
+    "bubble_match": 10,
+    "floating_bubble": 20,
+    "combo_multiplier": "x(combo + 1)",
+    "bonus_per_shot_remaining": 5,
+    "level_completion_minimum": 20
+  },
+  "power_ups": {
+    "bomb_bubble": {
+      "name_en": "Bomb Bubble",
+      "name_ar": "فقاعة القنبلة",
+      "description_en": "Destroys all bubbles in a 2-bubble radius",
+      "description_ar": "تدمر جميع الفقاعات في نطاق فقاعتين",
+      "count_per_5_levels": 2
+    },
+    "rainbow_bubble": {
+      "name_en": "Rainbow Bubble",
+      "name_ar": "فقاعة قوس القزح",
+      "description_en": "Matches with any color",
+      "description_ar": "تطابق مع أي لون",
+      "count_per_5_levels": 1
+    }
+  },
+  "difficulty_progression": {
+    "level_1_5": {
+      "colors": 3,
+      "rows": 4,
+      "shots": 40
+    },
+    "level_6_10": {
+      "colors": 3,
+      "rows": 5,
+      "shots": 35
+    },
+    "level_11_20": {
+      "colors": 4,
+      "rows": 5,
+      "shots": 30
+    },
+    "level_21_30": {
+      "colors": 4,
+      "rows": 6,
+      "shots": 30
+    },
+    "level_31_40": {
+      "colors": 5,
+      "rows": 6,
+      "shots": 25
+    },
+    "level_41_plus": {
+      "colors": 6,
+      "rows": 7,
+      "shots": 20
+    }
+  },
+  "requirements": {
+    "min_app_version": "10.2.0",
+    "flutter_version": "3.24.0",
+    "android_min_sdk": 21
+  },
+  "assets": {
+    "bubble_sprites": 8,
+    "background_music": false,
+    "sound_effects": false,
+    "total_size_mb": 3.8
+  },
+  "leaderboard": {
+    "enabled": false,
+    "coming_soon": true
+  },
+  "achievements": {
+    "enabled": false,
+    "coming_soon": true
+  }
+}
+

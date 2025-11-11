@@ -1,0 +1,190 @@
+{
+  "game_id": "bubble_shooter",
+  "version": "1.0.0",
+  "game_data": {
+    "herbs": [
+      {
+        "id": "mint",
+        "name_en": "Mint",
+        "name_ar": "نعناع",
+        "emoji": "🌿",
+        "color": "green",
+        "hex_color": "#4CAF50"
+      },
+      {
+        "id": "lavender",
+        "name_en": "Lavender",
+        "name_ar": "لافندر",
+        "emoji": "💙",
+        "color": "blue",
+        "hex_color": "#2196F3"
+      },
+      {
+        "id": "hibiscus",
+        "name_en": "Hibiscus",
+        "name_ar": "كركديه",
+        "emoji": "🌺",
+        "color": "red",
+        "hex_color": "#F44336"
+      },
+      {
+        "id": "chamomile",
+        "name_en": "Chamomile",
+        "name_ar": "بابونج",
+        "emoji": "☀️",
+        "color": "yellow",
+        "hex_color": "#FFEB3B"
+      },
+      {
+        "id": "sage",
+        "name_en": "Sage",
+        "name_ar": "مرمية",
+        "emoji": "💜",
+        "color": "purple",
+        "hex_color": "#9C27B0"
+      },
+      {
+        "id": "turmeric",
+        "name_en": "Turmeric",
+        "name_ar": "كركم",
+        "emoji": "🔥",
+        "color": "orange",
+        "hex_color": "#FF9800"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "colors": 3,
+        "rows": 4,
+        "shots": 40,
+        "target_score": 200
+      },
+      {
+        "level": 2,
+        "colors": 3,
+        "rows": 4,
+        "shots": 38,
+        "target_score": 250
+      },
+      {
+        "level": 3,
+        "colors": 3,
+        "rows": 4,
+        "shots": 36,
+        "target_score": 300
+      },
+      {
+        "level": 4,
+        "colors": 3,
+        "rows": 5,
+        "shots": 35,
+        "target_score": 350
+      },
+      {
+        "level": 5,
+        "colors": 3,
+        "rows": 5,
+        "shots": 35,
+        "target_score": 400
+      },
+      {
+        "level": 6,
+        "colors": 4,
+        "rows": 5,
+        "shots": 34,
+        "target_score": 450
+      },
+      {
+        "level": 7,
+        "colors": 4,
+        "rows": 5,
+        "shots": 33,
+        "target_score": 500
+      },
+      {
+        "level": 8,
+        "colors": 4,
+        "rows": 5,
+        "shots": 32,
+        "target_score": 550
+      },
+      {
+        "level": 9,
+        "colors": 4,
+        "rows": 6,
+        "shots": 31,
+        "target_score": 600
+      },
+      {
+        "level": 10,
+        "colors": 4,
+        "rows": 6,
+        "shots": 30,
+        "target_score": 650
+      }
+    ],
+    "tips": {
+      "en": [
+        "Aim for clusters to create chain reactions!",
+        "Watch the next bubble preview",
+        "Bounce bubbles off walls for tricky shots",
+        "Focus on top bubbles to drop large groups",
+        "Build combos for bonus points",
+        "Use power-ups wisely"
+      ],
+      "ar": [
+        "اهدف للمجموعات لإنشاء تفاعلات سلسلة!",
+        "راقب معاينة الفقاعة التالية",
+        "اصطدم الفقاعات بالجدران للطلقات الصعبة",
+        "ركز على الفقاعات العلوية لإسقاط مجموعات كبيرة",
+        "اصنع مضاعفات للحصول على نقاط إضافية",
+        "استخدم القوى الخاصة بحكمة"
+      ]
+    },
+    "achievements": [
+      {
+        "id": "first_level",
+        "name_en": "First Victory",
+        "name_ar": "أول انتصار",
+        "requirement": "Complete Level 1",
+        "points": 10
+      },
+      {
+        "id": "level_5",
+        "name_en": "Getting Started",
+        "name_ar": "البداية الجيدة",
+        "requirement": "Complete Level 5",
+        "points": 25
+      },
+      {
+        "id": "level_10",
+        "name_en": "Bubble Master",
+        "name_ar": "سيد الفقاعات",
+        "requirement": "Complete Level 10",
+        "points": 50
+      },
+      {
+        "id": "combo_master",
+        "name_en": "Combo Master",
+        "name_ar": "سيد المضاعفات",
+        "requirement": "Get 5x combo",
+        "points": 30
+      },
+      {
+        "id": "perfect_shot",
+        "name_en": "Perfect Shot",
+        "name_ar": "طلقة مثالية",
+        "requirement": "Complete level without missing",
+        "points": 40
+      }
+    ]
+  },
+  "metadata": {
+    "created": "2025-11-10",
+    "last_updated": "2025-11-10",
+    "developer": "Kenda Herbs Gaming",
+    "contact": "kenda.herbs@gmail.com"
+  }
+}
+
